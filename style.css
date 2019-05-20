@@ -1,0 +1,237 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	padding: 0;
+	width: 1170px;
+	margin: 0 auto;
+	background-color: #f6f6f6;
+	background-image: url(04444.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	opacity: 0.7;
+}
+header {
+	margin: 0 auto;
+	padding: 0;
+	background-color: #f6f6f6;
+}
+.header-top {
+	margin-top: 15px;
+}
+.header-top-logo {
+	padding: 0;
+	margin: 25px 0 0 0px;
+	width: 82px;
+	height: 32px;
+	background-color: #f6f6f6;
+	background-image: url(img/logo.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+    float: left;
+}
+.header-top-burger {
+	padding: 0;
+	margin: 30px 0 0 0;
+	width: 20px;
+	height: 16px;
+	background-color: #f6f6f6;
+	background-image: url(img/menu-icon.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+    float: right;
+}
+.header-top-title {
+	padding-top: 125px;
+	padding-bottom: 17px;
+	letter-spacing: 1px;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	font-size: 38px;
+	font-style: italic;
+	font-weight: bold;
+}
+.header-top h2{
+	font-family: 'Work Sans', sans-serif; 
+    text-align: center;
+	font-size: 14px;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+	}
+.header-top-icon {
+	margin: 0 auto;
+	width: 16px;
+	height: 16px;
+	align-items: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+article {
+	width: 1197px;
+	margin: 0 auto;
+	background-color: #f6f6f6;
+}
+.article-items {
+	height: 1088px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-bottom: 60px;
+}
+.article-item1 {
+   display: inline-block;
+	background-color: #d9d9d9;
+	width: 370px;
+	height: 251px;
+	}
+.article-item2 {
+	display: inline-block;
+	background-color: #d9d9d9;
+	width: 370px;
+	height: 251px;
+	}
+.article-item3 {
+	display: inline-block;
+	background-color: #d9d9d9;
+	width: 370px;
+	height: 530px;
+	}
+.article-item4 {
+	display: inline-block;
+	background-color: #d9d9d9;
+	width: 370px;
+	height: 530px;
+	}
+.article-item5 {
+	display: inline-block;
+	background-color: white;
+    width: 370px;
+	height: 251px;
+	}
+.article-item-title {
+   padding-top: 92px;
+   padding-bottom: 18px;
+   letter-spacing: 1px;
+   font-family: 'Playfair Display', serif;
+   text-align: center;
+   font-size: 24px;
+   font-weight: bold;
+}
+.article-item-text {
+	font-family: 'Work Sans', sans-serif; 
+	font-size: 14px;
+	font-weight: normal;
+    text-transform: uppercase;
+	text-align: center;
+
+}
+.article-item6 {
+	background-color: #d9d9d9;
+	width: 370px;
+	height: 251px;
+	}
+.article-item7 {
+	display: inline-block;
+	background-color: #d9d9d9;
+	width: 370px;
+	height: 251px;
+	}
+.article-item8 {
+	display: inline-block;
+	background-color: #d9d9d9;
+	width: 370px;
+	height: 530px;
+	}
+.article-item9 {
+	display: inline-block;
+	background-color: #d9d9d9;
+    width: 370px;
+	height: 251px;
+	}
+.article-item__more-work {
+	width: 1197px;
+	margin-top: 53px;
+	background-color: white;
+	font-family: 'Work Sans', sans-serif; 
+	font-size: 14px;
+	font-weight: normal;
+    text-transform: uppercase;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.article-item__more-work a {
+    text-decoration: none;
+	cursor: pointer;
+}
+footer {
+	width: 1197px;
+	margin: 0 auto;
+	background-color: #222222;
+}
+.social {
+	padding: 60px 0 12px 0;
+	margin: 0 auto;
+}
+.social-icons {
+	list-style-type: none;
+	margin: 0 auto;
+    width: 215px;
+	height: 35px;
+    display: flex;
+}
+.social-icons li{
+	width: 18px;
+	height: 18px;
+}
+.social-icons a {
+	width: 18px;
+	height: 18px;
+	margin: 0 0 0 10px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.fb {
+	background-image: url(img/facebook.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.tw {
+	background-image: url(img/twitter.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.gp {
+	background-image: url(img/google-plus.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.bh {
+	background-image: url(img/behance.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.pt {
+	background-image: url(img/pinterest.png);
+    background-repeat: no-repeat;
+	background-position: center center;
+}
+.ig {
+	background-image: url(img/instagram.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.copyright {
+	font-family: 'Work Sans', sans-serif; 
+	margin: 0 auto;	
+	font-size: 14px;
+	text-align: center;
+	font-weight: normal;
+    color: #d8d8d8;
+    padding-bottom: 40px;
+}
